@@ -1,0 +1,48 @@
+/* Header styles */
+.header {
+  width: 100%;
+  padding: 1em 0;
+}
+
+.header-container {
+  max-width: 1200px; /* Centered container with max width */
+  margin: 0 auto; /* Center the container */
+  padding: 0 1em; /* Horizontal padding */
+  display: flex; /* Flex container for logo and nav */
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Center items vertically */
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.5em; /* Larger font size for logo */
+  color: #333; /* Dark color for the logo text */
+  display: flex; /* Flex container for logo and text */
+  align-items: center; /* Center logo image and text vertically */
+  gap: 0.5em; /* Space between logo image and text */
+}
+
+.logo-image {
+  width: 30px;
+  height: auto;
+}
+
+/* Navigation styles */
+.nav-list {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Horizontal list */
+  gap: 1em; /* Spacing between nav items */
+}
+
+.nav-item a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark color for nav links */
+  font-size: 1em; /* Font size for nav links */
+  padding: 0.5em; /* Padding around nav links */
+}
+
+.nav-item a:hover {
+  color: #007bff; /* Color change on hover */
+}

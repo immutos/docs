@@ -1,0 +1,8 @@
+baseURL = 'https://www.immutos.com/'
+languageCode = 'en-us'
+title = 'immutos'
+
+
+[markup]
+  [markup.highlight]
+    style = "vs"
